@@ -1,5 +1,47 @@
-template-repository (1.0-1) unstable; urgency=medium
+libmpack (1.0.5-3) unstable; urgency=medium
 
-  * Initial release
+  * Lintian:
+    + copyright: Remove reference to non-existent file.
+    + rules: Remove unnecessary --parallel
+    + Use https URL for copyright Format
+  * Bump debhelper compat to 11
+  * Change Priority to optional, per Policy
+  * Change Vcs-* to salsa.d.o
+  * Declare compliance with Policy 4.1.3
+  * rules: Pass CPPFLAGS through CFLAGS
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- James McCoy <jamessan@debian.org>  Sun, 11 Mar 2018 21:37:11 -0400
+
+libmpack (1.0.5-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Sat, 22 Jul 2017 21:49:43 -0400
+
+libmpack (1.0.5-1) experimental; urgency=medium
+
+  * New upstream release
+    + Update URLs for move to https://github.com/libmpack/libmpack/
+  * Remove everything lua, since that has been separated into a distinct
+    project.
+
+ -- James McCoy <jamessan@debian.org>  Sun, 30 Apr 2017 15:17:04 -0400
+
+libmpack (1.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+    + Drop all backported patches.
+
+ -- James McCoy <jamessan@debian.org>  Fri, 16 Dec 2016 21:16:46 -0500
+
+libmpack (1.0.2-2) unstable; urgency=medium
+
+  * Add test/deps to d/copyright.
+
+ -- James McCoy <jamessan@debian.org>  Sat, 25 Jun 2016 22:42:00 -0400
+
+libmpack (1.0.2-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- James McCoy <jamessan@debian.org>  Sat, 18 Jun 2016 15:10:06 -0400
